@@ -1,3 +1,6 @@
+Plugin to allow migrations for Symfony .14 projects with multiple databases
+
+
 == Installation ==
 
 Just copy plugin files to plugins/ directory and clear cache
