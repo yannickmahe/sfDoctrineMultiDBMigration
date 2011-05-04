@@ -1,4 +1,4 @@
-Plugin to allow migrations for Symfony .14 projects with multiple databases
+Plugin to allow migrations for Symfony 1.4 projects with multiple databases
 
 
 == Installation ==
