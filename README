@@ -1,0 +1,18 @@
+== Installation ==
+
+Just copy plugin files to plugins/ directory and clear cache
+
+== Use ==
+
+task <pre>multiDBmigration:generate</pre> 
+* checks differences between schema and model
+* Generate a migration classes in /lib/migration/<classConnectionName>
+
+task <pre>multiDBmigration:migrate</pre> 
+* checks version of all databases and migration classes
+* applies changes to all databases accordingly
+
+
+=== 2010-08-09 | 1.0 RC ===
+
+Original release

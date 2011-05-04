@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.7.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfDoctrineMultiDBMigrationPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Plugin to handle doctrine migrations on multiple databases</summary>
+ <description>The sfDoctrineMultiDBMigrationPlugin adds new tasks to manage Database migrations when multiple databases are defined in database.yml.</description>
+ <lead>
+  <name>Yannick Mahe</name>
+  <user>yannickmahe</user>
+  <email>mahe.yannick@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-10</date>
+ <time>08:14:47</time>
+ <version>
+  <release>1.0</release>
+  <api>1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="1501ccbbc97f225c4f675e6c1ffae8fb" name="lib/sfDoctrineMultiDBMigrationBuilder.class.php" role="data"/>
+   <file md5sum="833c2a2f4cbeca7180559754cfa2bab1" name="lib/sfDoctrineMultiDBMigrationDiff.class.php" role="data"/>
+   <file md5sum="c17d43c10149d416c063055d23f80ebe" name="lib/sfDoctrineMultiDBMigrationMigration.class.php" role="data"/>
+   <file md5sum="c73506f7e02b75e1e2aed679dbdeb2fc" name="lib/task/sfDoctrineMultiDBMigrationGenerateTask.class.php" role="data"/>
+   <file md5sum="f1be3f8ddd7b9d0842b710d1c80f369b" name="lib/task/sfDoctrineMultiDBMigrationMigrateTask.class.php" role="data"/>
+   <file md5sum="9624ddd10c0aa1be0c600f149e078892" name="README" role="data"/>
+   <file md5sum="9ee766b58d9301cdb39be282b4616bfe" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>1.0</release>
+    <api>1.0</api>
+   </version>
+   <stability>
+    <release>RC</release>
+    <api>RC</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <date>2010-08-09</date>
+   <notes>* First realease</notes>
+  </release>
+ </changelog>
+</package>
